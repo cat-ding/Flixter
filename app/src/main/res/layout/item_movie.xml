@@ -22,7 +22,7 @@
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:textSize="24sp"
-        tools:text="Britt-Marie var här" />
+        tools:text="Britt-Marie Was Here" />
 
     <TextView
         android:id="@+id/tvOverview"
