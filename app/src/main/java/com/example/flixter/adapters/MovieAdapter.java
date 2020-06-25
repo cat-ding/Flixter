@@ -88,8 +88,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             }
 
             int radius = 30; // corner radius, higher value = more rounded
-            Glide.with(context).load(imageUrl).transform(new RoundedCorners(radius)).override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).into(ivPoster);
-
+            Glide.with(context).load(imageUrl).transform(new RoundedCorners(radius)).into(ivPoster);
 //            Glide.with(context).load(imageUrl).into(ivPoster);
         }
 
