@@ -89,21 +89,16 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
 
             int radius = 30; // corner radius, higher value = more rounded
             Glide.with(context).load(imageUrl).transform(new RoundedCorners(radius)).into(ivPoster);
-//            Glide.with(context).load(imageUrl).into(ivPoster);
         }
 
         // when the user clicks on a row, show MovieDetailsActivity for the selected movie
         @Override
         public void onClick(View view) {
-            Log.d("HERE", "in onclick");
             // gets item position
             int position = getAdapterPosition();
-            Log.d("HERE", "in onclick");
 
             // make sure the position is valid, i.e. actually exists in the view
             if (position != RecyclerView.NO_POSITION) {
-                Log.d("HERE", "in onclick");
-
                 // get the movie at the position, this won't work if the class is static
                 Movie movie = movies.get(position);
                 // create intent for the new activity
