@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 [Landscape Demo Link](screenshots/portrait.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
