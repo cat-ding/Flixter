@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient1"
-    tools:context=".MovieDetailsActivity">
+    tools:context=".MovieDetailsActivity"
+    tools:visibility="visible">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -76,5 +77,21 @@
         android:layout_marginTop="10dp"
         android:text="View trailer:"
         android:textColor="#E6E6E6" />
+
+    <TextView
+        android:id="@+id/ratingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignBottom="@+id/rbVoteAverage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/rbVoteAverage"
+        android:text="5.0"
+        android:textColor="#E6E6FF"
+        android:textSize="22sp" />
 
 </RelativeLayout>
