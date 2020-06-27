@@ -2,7 +2,7 @@
 
 **Flixter** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **~16** hours spent in total
+Time spent: **~17** hours spent in total
 
 ## User Stories
 
@@ -41,7 +41,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Describe any challenges encountered while building the app.
 
 * Spent way more time than I should have trying to figure out why image was not displaying when it was just a tiny typo in the string for the link.
-* About an hour before the submission deadline, I was finishing up adding one last feature (rating value textview) but some unknown error came up and I spent way too long trying to figure out the problem so I had to reclone my project and redo a few features. 
+* Spent a bit of time understanding how to use the YouTube API key to access JSON arrays then JSON objects, then how to send the info to a new Activity using Intents.
+* As I was adding one of the last features, the numerical rating, some strange errors came up since I had just deleted a landscape layout and as more errors started coming up, I decided it would be more efficient to clone my repository and start again.
 
 ## Open-source libraries used
 
