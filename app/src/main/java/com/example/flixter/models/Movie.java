@@ -11,6 +11,7 @@ import java.util.List;
 @Parcel // annotation indicates class is Parcelable
 public class Movie {
 
+    private static final String URL = "https://image.tmdb.org/t/p/w342/%s";
     String backdropPath;
     String posterPath;
     String title;
@@ -40,16 +41,12 @@ public class Movie {
     }
 
     public String getPosterPath() {
-        return String.format("https://image.tmdb.org/t/p/w342/%s", posterPath);
+        return String.format(URL, posterPath);
     }
 
     public String getBackdropPath() {
-        return String.format("https://image.tmdb.org/t/p/w342/%s", backdropPath);
+        return String.format(URL, backdropPath);
     }
-
-//    public String getVideoPath() {
-//
-//    }
 
     public Integer getId() { return id; };
 

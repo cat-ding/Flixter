@@ -68,7 +68,8 @@ public class MovieDetailsActivity extends AppCompatActivity {
         AsyncHttpClient client = new AsyncHttpClient();
 
         // move this link above later
-        client.get("https://api.themoviedb.org/3/movie/"+ movie.getId() +"/videos?api_key=9dac52cad21b8aa939973b063069bf6a", new JsonHttpResponseHandler() {
+        client.get("https://api.themoviedb.org/3/movie/"+ movie.getId() +"/videos?api_key="
+                + getString(R.string.moviedb_api_key), new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
                 Log.d("MovieDetailsActivity", "onSuccess");
