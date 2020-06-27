@@ -32,7 +32,7 @@ Here's a walkthrough of implemented user stories:
 
 ![Portrait Demo Link](screenshots/portrait.gif)
 
-![Landscape Demo Link](screenshots/portrait.gif)
+![Landscape Demo Link](screenshots/landscape.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
