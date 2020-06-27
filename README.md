@@ -2,7 +2,7 @@
 
 **Flixter** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **~17** hours spent in total
+Time spent: **~19** hours spent in total
 
 ## User Stories
 
@@ -30,9 +30,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Portrait Demo Link](screenshots/portrait.gif)
+![Portrait Demo Link](screenshots/portrait.gif)
 
-[Landscape Demo Link](screenshots/portrait.gif)
+![Landscape Demo Link](screenshots/portrait.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
